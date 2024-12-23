@@ -37,6 +37,6 @@
     "zod": "^3.20.6"
   },
   "devDependencies": {
-    "@hookform/devtools": "^4.3.0"
+    "@hookform/devtools": "^4.3.3"
   }
 }
