@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aptos-labs/wallet-adapter-core@*", "@aptos-labs/wallet-adapter-core@0.2.3", "@aptos-labs/wallet-adapter-core@^0.2.0":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@aptos-labs/wallet-adapter-core/-/wallet-adapter-core-0.2.3.tgz#916807716242333d3e098f4704c8494244723a81"
-  integrity sha512-QjUVRYSL05pxdjYo2bScxEZ8wi6ww4sf5mBW5w89F5mDfnDz2XEmZQYfQtV3bxoyqnNWPEjagTds4tKMXDhF1w==
+"@aptos-labs/wallet-adapter-core@*", "@aptos-labs/wallet-adapter-core@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@aptos-labs/wallet-adapter-core/-/wallet-adapter-core-2.1.0.tgz#cfce6a6ff187fdddbf48ece1cb6fd7601a1c33dd"
+  integrity sha512-ZSCCsFt2heEh9IDaObbzw8EwqfzJGCWGBoaGouBtOYn2DVkh5R0P9xRj6ryF9cuO+tkfP+8KZmZ9m4c+xsJN2g==
   dependencies:
     aptos "^1.3.17"
     buffer "^6.0.3"
@@ -19,6 +19,16 @@
   dependencies:
     aptos "^1.3.17"
     eventemitter3 "^4.0.7"
+
+"@aptos-labs/wallet-adapter-core@^0.2.0":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@aptos-labs/wallet-adapter-core/-/wallet-adapter-core-0.2.3.tgz#916807716242333d3e098f4704c8494244723a81"
+  integrity sha512-QjUVRYSL05pxdjYo2bScxEZ8wi6ww4sf5mBW5w89F5mDfnDz2XEmZQYfQtV3bxoyqnNWPEjagTds4tKMXDhF1w==
+  dependencies:
+    aptos "^1.3.17"
+    buffer "^6.0.3"
+    eventemitter3 "^4.0.7"
+    tweetnacl "^1.0.3"
 
 "@aptos-labs/wallet-adapter-react@^0.2.4":
   version "0.2.4"
@@ -1050,12 +1060,12 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@martianwallet/aptos-wallet-adapter@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@martianwallet/aptos-wallet-adapter/-/aptos-wallet-adapter-0.0.3.tgz#336e6ac3c4981a75293c8d25573cdf5de573f984"
-  integrity sha512-hR/KhXOeDv6tLGt+BAoJyGEhXKHevPEEw/7Z6hsyNTerHRrplguD7CLMbEY6cCakwzMqfV9+GxyZ+OYQsQ6mgg==
+"@martianwallet/aptos-wallet-adapter@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@martianwallet/aptos-wallet-adapter/-/aptos-wallet-adapter-0.0.5.tgz#d2e10d9600a152f7728004e868dfa9272872bea0"
+  integrity sha512-x6Q3bM7HSltCAD8Zl0AeU1AFhu0M+Ho22QP+oOXWhdb4TledVVLNfGIAx1jP4slqfcpDGOjnibPtPt8Bm32wmg==
   dependencies:
-    "@aptos-labs/wallet-adapter-core" "0.2.3"
+    "@aptos-labs/wallet-adapter-core" "2.1.0"
     aptos "^1.4.0"
 
 "@motionone/animation@^10.15.1":
